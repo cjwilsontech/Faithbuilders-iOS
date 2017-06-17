@@ -47,11 +47,11 @@ class ClassViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             
             // Set the date.
             if (myClass.day == 0) {
-                dateLabel.text = "Thursday, July 7"
+                dateLabel.text = "Thursday, July 6"
             } else if (myClass.day == 1) {
-                dateLabel.text = "Friday, July 8"
+                dateLabel.text = "Friday, July 7"
             } else {
-                dateLabel.text = "Saturday, July 9"
+                dateLabel.text = "Saturday, July 8"
             }
         }
         
