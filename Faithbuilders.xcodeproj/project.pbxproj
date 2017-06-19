@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2331CA761EF84D71006C987D /* CampusMapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2331CA751EF84D71006C987D /* CampusMapViewController.swift */; };
 		234DD0761D10CC4B008050DD /* SpeakerTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234DD0751D10CC4B008050DD /* SpeakerTableViewCell.swift */; };
 		234DD0781D10D15E008050DD /* SpeakerTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234DD0771D10D15E008050DD /* SpeakerTableViewController.swift */; };
 		234DD07A1D10DBEE008050DD /* SpeakerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 234DD0791D10DBEE008050DD /* SpeakerViewController.swift */; };
@@ -25,6 +26,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		2331CA751EF84D71006C987D /* CampusMapViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CampusMapViewController.swift; sourceTree = "<group>"; };
 		234DD0751D10CC4B008050DD /* SpeakerTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewCell.swift; sourceTree = "<group>"; };
 		234DD0771D10D15E008050DD /* SpeakerTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerTableViewController.swift; sourceTree = "<group>"; };
 		234DD0791D10DBEE008050DD /* SpeakerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SpeakerViewController.swift; sourceTree = "<group>"; };
@@ -79,6 +81,7 @@
 				234DD07F1D124010008050DD /* Class.swift */,
 				234DD07B1D10E278008050DD /* Speaker.swift */,
 				238FB2FD1D286BB0006CF574 /* HomeTableViewController.swift */,
+				2331CA751EF84D71006C987D /* CampusMapViewController.swift */,
 				23CFCB591D0E0F79004E3AC4 /* ScheduleViewController.swift */,
 				234DD0811D15CCD8008050DD /* ScheduleTableViewController.swift */,
 				234DD0831D15CE9C008050DD /* ScheduleTableViewCell.swift */,
@@ -170,6 +173,7 @@
 				234DD0781D10D15E008050DD /* SpeakerTableViewController.swift in Sources */,
 				238FB2FE1D286BB0006CF574 /* HomeTableViewController.swift in Sources */,
 				234DD0801D124010008050DD /* Class.swift in Sources */,
+				2331CA761EF84D71006C987D /* CampusMapViewController.swift in Sources */,
 				234DD0761D10CC4B008050DD /* SpeakerTableViewCell.swift in Sources */,
 				234DD07C1D10E278008050DD /* Speaker.swift in Sources */,
 				234DD0821D15CCD8008050DD /* ScheduleTableViewController.swift in Sources */,

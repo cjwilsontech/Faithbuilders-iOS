@@ -31,8 +31,13 @@ class HomeTableViewController: UITableViewController {
         }
         
         // Website Cell
-        if (indexPath.row == 2) {
+        if (indexPath.row == 3) {
             UIApplication.shared.openURL(URL(string: "http://www.faithbuildersnw.com")!)
+        }
+        
+        // Facebook Cell
+        if (indexPath.row == 4) {
+            UIApplication.shared.openURL(URL(string: "https://www.facebook.com/FaithBuilders2016")!)
         }
     }
 }
