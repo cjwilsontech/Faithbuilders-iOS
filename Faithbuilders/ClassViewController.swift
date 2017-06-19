@@ -69,17 +69,14 @@ class ClassViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             coordinates = CLLocationCoordinate2DMake(47.14609, -122.441857)
         } else if (myClass!.location == "Xavier") {
             coordinates = CLLocationCoordinate2DMake(47.146528, -122.441342)
-        } else {
-            // Admin
+        } else if (myClass!.location == "Admin 101") {
             coordinates = CLLocationCoordinate2DMake(47.147106, -122.441691)
+        } else { // University Center
+            coordinates = CLLocationCoordinate2DMake(47.145293, -122.440437)
         }
         
         let regionDistance:CLLocationDistance = 700
         let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
-        /*let options = [
-        MKLaunchOptionsMapCenterKey: NSValue(MKCoordinate: regionSpan.center),
-        MKLaunchOptionsMapSpanKey: NSValue(MKCoordinateSpan: regionSpan.span)
-        ]*/
         let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
         let mapItem = MKMapItem(placemark: placemark)
         mapItem.name = myClass!.location

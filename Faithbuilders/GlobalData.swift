@@ -75,6 +75,7 @@ class GlobalData
             
             
             Class(title: "Registration and Displays", speaker:nil, location: "Auditorium", timeStart: "9:00 AM", timeEnd: "9:30 AM", day: 1),
+            Class(title: "Youth Challenge", speaker: speakers[12], location: "University Center", timeStart: "9:00 AM", timeEnd: "4:00 PM", day: 1),
             Class(title: "Walking in the Light", speaker: speakers[6], location: "Auditorium", timeStart: "9:30 AM", timeEnd: "10:30 AM", day: 1),
             Class(title: "We Have the Message", speaker: speakers[8], location: "Admin 101", timeStart: "9:30 AM", timeEnd: "10:30 AM", day: 1),
             Class(title: "What is Testing the Spirits?", speaker: speakers[11], location: "Xavier", timeStart: "9:30 AM", timeEnd: "10:30 AM", day: 1),
