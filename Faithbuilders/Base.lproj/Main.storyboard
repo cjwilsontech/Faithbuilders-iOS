@@ -76,11 +76,11 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="57"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3L2-2R-jQn" id="Ia8-QA-wq4">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="57"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="56.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doing the Thing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQO-ut-tLI" userLabel="title">
-                                            <rect key="frame" x="91" y="8" width="243" height="21"/>
+                                            <rect key="frame" x="91" y="8" width="468" height="21"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -101,13 +101,13 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Wilson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lS1-0b-yOd" userLabel="speaker">
-                                            <rect key="frame" x="91" y="30" width="140" height="21"/>
+                                            <rect key="frame" x="91" y="30" width="365" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auditorium" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJE-If-Shl" userLabel="location">
-                                            <rect key="frame" x="239" y="30" width="95" height="21"/>
+                                            <rect key="frame" x="464" y="30" width="95" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="95" id="r37-bE-jb4"/>
                                             </constraints>
@@ -252,7 +252,7 @@
         <!--Tab Bar Controller-->
         <scene sceneID="yl2-sM-qoP">
             <objects>
-                <tabBarController id="49e-Tb-3d3" sceneMemberID="viewController">
+                <tabBarController id="49e-Tb-3d3" customClass="TabBarController" customModule="Faithbuilders" customModuleProvider="target" sceneMemberID="viewController">
                     <simulatedNavigationBarMetrics key="simulatedTopBarMetrics" translucent="NO"/>
                     <simulatedTabBarMetrics key="simulatedBottomBarMetrics" translucent="NO"/>
                     <tabBar key="tabBar" contentMode="scaleToFill" translucent="NO" id="W28-zg-YXA">
@@ -283,7 +283,7 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Y5-Yr-Abi" id="R4c-7H-C1Z">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="90"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="342" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenwilson" translatesAutoresizingMaskIntoConstraints="NO" id="GGd-XO-zFz">
@@ -435,7 +435,7 @@
                                         <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="5YD-UW-STB" id="7f7-e8-BO9">
-                                            <rect key="frame" x="0.0" y="0.0" width="375" height="174"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="375" height="173.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WpA-yd-1RU">
@@ -477,7 +477,7 @@
                                         <rect key="frame" x="0.0" y="174" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QI2-HN-xSv" id="8xm-Or-yn4">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="120"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="119.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MDd-Lg-Mlv">
@@ -513,7 +513,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="294" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="clJ-ZF-RhR" id="8Qj-3P-CIO">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="58"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Campus Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmX-Ho-OYi">
@@ -533,7 +533,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="352" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S5Y-js-OKW" id="cdX-Gp-ggL">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="58"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuk-Bh-OEy">
@@ -550,7 +550,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="410" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fGv-Zt-HfY" id="qu6-ic-OMA">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="58"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visit us on Facebook!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yq1-eo-vfH">
@@ -567,7 +567,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="468" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pfx-2s-wWd" id="CKz-bE-n08">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="58"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TF5-84-ock">

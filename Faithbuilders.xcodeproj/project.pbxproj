@@ -23,6 +23,7 @@
 		23CFCB5A1D0E0F79004E3AC4 /* ScheduleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23CFCB591D0E0F79004E3AC4 /* ScheduleViewController.swift */; };
 		23CFCB5F1D0E0F79004E3AC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 23CFCB5D1D0E0F79004E3AC4 /* Main.storyboard */; };
 		23CFCB611D0E0F79004E3AC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 23CFCB601D0E0F79004E3AC4 /* Assets.xcassets */; };
+		23DF3F711F016CCD00A03D56 /* TabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 23DF3F701F016CCD00A03D56 /* TabBarController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -44,6 +45,7 @@
 		23CFCB5E1D0E0F79004E3AC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		23CFCB601D0E0F79004E3AC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		23CFCB651D0E0F79004E3AC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		23DF3F701F016CCD00A03D56 /* TabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TabBarController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -90,6 +92,7 @@
 				234DD0751D10CC4B008050DD /* SpeakerTableViewCell.swift */,
 				234DD0791D10DBEE008050DD /* SpeakerViewController.swift */,
 				238FB2FF1D289427006CF574 /* AboutViewController.swift */,
+				23DF3F701F016CCD00A03D56 /* TabBarController.swift */,
 				23CFCB5D1D0E0F79004E3AC4 /* Main.storyboard */,
 				23CFCB601D0E0F79004E3AC4 /* Assets.xcassets */,
 				23CFCB651D0E0F79004E3AC4 /* Info.plist */,
@@ -172,6 +175,7 @@
 				234DD07A1D10DBEE008050DD /* SpeakerViewController.swift in Sources */,
 				234DD0781D10D15E008050DD /* SpeakerTableViewController.swift in Sources */,
 				238FB2FE1D286BB0006CF574 /* HomeTableViewController.swift in Sources */,
+				23DF3F711F016CCD00A03D56 /* TabBarController.swift in Sources */,
 				234DD0801D124010008050DD /* Class.swift in Sources */,
 				2331CA761EF84D71006C987D /* CampusMapViewController.swift in Sources */,
 				234DD0761D10CC4B008050DD /* SpeakerTableViewCell.swift in Sources */,
