@@ -37,7 +37,7 @@ class HomeTableViewController: UITableViewController {
         
         // Facebook Cell
         if (indexPath.row == 4) {
-            UIApplication.shared.openURL(URL(string: "https://www.facebook.com/FaithBuilders2016")!)
+            UIApplication.shared.openURL(URL(string: "https://www.facebook.com/FaithBuilders2018")!)
         }
     }
 }

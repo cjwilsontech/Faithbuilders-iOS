@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="49e-Tb-3d3">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
         <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
@@ -28,9 +28,9 @@
                                     <constraint firstAttribute="width" constant="301" id="Ond-NL-Rzo"/>
                                 </constraints>
                                 <segments>
-                                    <segment title="Thur. July 6"/>
-                                    <segment title="Fri. July 7"/>
-                                    <segment title="Sat. July 8"/>
+                                    <segment title="Thur. July 12"/>
+                                    <segment title="Fri. July 13"/>
+                                    <segment title="Sat. July 14"/>
                                 </segments>
                                 <connections>
                                     <action selector="indexChanged:" destination="9pv-A4-QxB" eventType="valueChanged" id="ybF-T4-EbS"/>
@@ -76,17 +76,17 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="57"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="3L2-2R-jQn" id="Ia8-QA-wq4">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="56.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="56.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Doing the Thing" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TQO-ut-tLI" userLabel="title">
-                                            <rect key="frame" x="91" y="8" width="468" height="21"/>
+                                            <rect key="frame" x="99" y="11" width="234" height="21"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="10:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="BRW-VQ-cAh" userLabel="timeStart">
-                                            <rect key="frame" x="8" y="8" width="75" height="21"/>
+                                            <rect key="frame" x="16" y="11" width="75" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="75" id="uVs-LT-VLZ"/>
                                             </constraints>
@@ -95,19 +95,19 @@
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="11:00 AM" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vm3-EA-b6v" userLabel="timeEnd">
-                                            <rect key="frame" x="8" y="29" width="75" height="22"/>
+                                            <rect key="frame" x="16" y="32" width="75" height="22"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="12"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Wilson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="lS1-0b-yOd" userLabel="speaker">
-                                            <rect key="frame" x="91" y="30" width="365" height="21"/>
+                                            <rect key="frame" x="99" y="33" width="131" height="21"/>
                                             <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Auditorium" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aJE-If-Shl" userLabel="location">
-                                            <rect key="frame" x="464" y="30" width="95" height="21"/>
+                                            <rect key="frame" x="238" y="33" width="95" height="21"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="95" id="r37-bE-jb4"/>
                                             </constraints>
@@ -119,6 +119,7 @@
                                     <constraints>
                                         <constraint firstItem="BRW-VQ-cAh" firstAttribute="leading" secondItem="Vm3-EA-b6v" secondAttribute="leading" id="2kO-br-lKW"/>
                                         <constraint firstItem="aJE-If-Shl" firstAttribute="top" secondItem="TQO-ut-tLI" secondAttribute="bottom" constant="1" id="3XV-w9-466"/>
+                                        <constraint firstItem="Vm3-EA-b6v" firstAttribute="trailing" secondItem="BRW-VQ-cAh" secondAttribute="trailing" id="71f-Rq-9lc"/>
                                         <constraint firstItem="BRW-VQ-cAh" firstAttribute="top" secondItem="Ia8-QA-wq4" secondAttribute="topMargin" id="CGW-Jb-lA1"/>
                                         <constraint firstItem="Vm3-EA-b6v" firstAttribute="bottom" secondItem="lS1-0b-yOd" secondAttribute="bottom" id="ErR-sW-huc"/>
                                         <constraint firstItem="TQO-ut-tLI" firstAttribute="leading" secondItem="lS1-0b-yOd" secondAttribute="leading" id="QbL-Bg-yfu"/>
@@ -140,7 +141,7 @@
                                     <outlet property="timeEndLabel" destination="Vm3-EA-b6v" id="c3w-DG-RIj"/>
                                     <outlet property="timeStartLabel" destination="BRW-VQ-cAh" id="Rrg-Rf-yDd"/>
                                     <outlet property="titleLabel" destination="TQO-ut-tLI" id="Ulc-qZ-gyp"/>
-                                    <segue destination="iMm-rW-v3Y" kind="showDetail" action="showViewController:sender:" id="fCb-1h-cBw"/>
+                                    <segue destination="iMm-rW-v3Y" kind="show" id="fCb-1h-cBw"/>
                                 </connections>
                             </tableViewCell>
                         </prototypes>
@@ -163,17 +164,17 @@
                         <viewControllerLayoutGuide type="bottom" id="XS6-th-beY"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="cjl-bD-e1M">
-                        <rect key="frame" x="0.0" y="94" width="375" height="573"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="446"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenwilson" translatesAutoresizingMaskIntoConstraints="NO" id="18K-8N-YwQ">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="18K-8N-YwQ">
                                 <rect key="frame" x="16" y="40" width="90" height="90"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="90" id="Awo-df-30F"/>
                                     <constraint firstAttribute="width" constant="90" id="RF1-7O-5Js"/>
                                 </constraints>
                             </imageView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Wilson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyA-fz-6Wd">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="uyA-fz-6Wd">
                                 <rect key="frame" x="114" y="40" width="245" height="24"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -204,7 +205,7 @@
                                 <nil key="highlightedColor"/>
                             </label>
                             <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" mapType="hybrid" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2fw-Kh-MmD">
-                                <rect key="frame" x="16" y="151" width="343" height="402"/>
+                                <rect key="frame" x="16" y="151" width="343" height="275"/>
                             </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
@@ -283,23 +284,23 @@
                                 <rect key="frame" x="0.0" y="28" width="375" height="90"/>
                                 <autoresizingMask key="autoresizingMask"/>
                                 <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="6Y5-Yr-Abi" id="R4c-7H-C1Z">
-                                    <rect key="frame" x="0.0" y="0.0" width="342" height="89.5"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="341" height="89.5"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                     <subviews>
-                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenwilson" translatesAutoresizingMaskIntoConstraints="NO" id="GGd-XO-zFz">
-                                            <rect key="frame" x="10" y="10" width="70" height="70"/>
+                                        <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="GGd-XO-zFz">
+                                            <rect key="frame" x="18" y="13" width="70" height="64"/>
                                             <constraints>
                                                 <constraint firstAttribute="width" constant="70" id="eFN-vx-K84"/>
                                             </constraints>
                                         </imageView>
-                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Wilson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOS-Ld-6Oq">
-                                            <rect key="frame" x="88" y="10" width="246" height="34"/>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bOS-Ld-6Oq">
+                                            <rect key="frame" x="96" y="13" width="237" height="29"/>
                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
                                         </label>
                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Puyallup, WA" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="F8d-A3-Mu1">
-                                            <rect key="frame" x="88" y="42" width="246" height="21"/>
+                                            <rect key="frame" x="96" y="45" width="237" height="21"/>
                                             <fontDescription key="fontDescription" type="system" weight="light" pointSize="17"/>
                                             <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                             <nil key="highlightedColor"/>
@@ -350,7 +351,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="kenwilson" translatesAutoresizingMaskIntoConstraints="NO" id="YVR-fB-PRR">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="profile" translatesAutoresizingMaskIntoConstraints="NO" id="YVR-fB-PRR">
                                 <rect key="frame" x="16" y="97" width="90" height="90"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" image="YES" notEnabled="YES"/>
@@ -366,7 +367,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Ken Wilson" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zn-aa-s3a">
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Speaker Name" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Zn-aa-s3a">
                                 <rect key="frame" x="114" y="97" width="245" height="29"/>
                                 <accessibility key="accessibilityConfiguration">
                                     <accessibilityTraits key="traits" staticText="YES" notEnabled="YES"/>
@@ -439,19 +440,19 @@
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo" translatesAutoresizingMaskIntoConstraints="NO" id="WpA-yd-1RU">
-                                                    <rect key="frame" x="71.5" y="0.0" width="232" height="119"/>
+                                                    <rect key="frame" x="71.5" y="0.0" width="232" height="117"/>
                                                     <constraints>
                                                         <constraint firstAttribute="width" constant="232" id="XuU-xk-Z8b"/>
                                                     </constraints>
                                                 </imageView>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faithbuilders 2017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3I-r4-O41">
-                                                    <rect key="frame" x="8" y="118" width="359" height="27"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Faithbuilders 2018" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="m3I-r4-O41">
+                                                    <rect key="frame" x="16" y="116" width="343" height="27"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="22"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
                                                 </label>
-                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Conquering All Fears" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbM-XQ-ywH">
-                                                    <rect key="frame" x="8" y="144" width="359" height="21"/>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Uncomfortable Christianity" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="RbM-XQ-ywH">
+                                                    <rect key="frame" x="16" y="142" width="343" height="21"/>
                                                     <constraints>
                                                         <constraint firstAttribute="height" constant="21" id="2Xs-pj-nF1"/>
                                                     </constraints>
@@ -477,11 +478,11 @@
                                         <rect key="frame" x="0.0" y="174" width="375" height="120"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="QI2-HN-xSv" id="8xm-Or-yn4">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="119.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="119.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MDd-Lg-Mlv">
-                                                    <rect key="frame" x="8" y="27" width="326" height="84"/>
+                                                    <rect key="frame" x="16" y="30" width="317" height="79"/>
                                                     <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <string key="text">Pacific Lutheran University
 12180 Park Ave S,
@@ -491,7 +492,7 @@ Tacoma, WA 98447</string>
                                                     <dataDetectorType key="dataDetectorTypes" address="YES"/>
                                                 </textView>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Location" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="GXs-LX-B7g">
-                                                    <rect key="frame" x="8" y="8" width="326" height="21"/>
+                                                    <rect key="frame" x="16" y="11" width="317" height="16"/>
                                                     <fontDescription key="fontDescription" type="system" pointSize="18"/>
                                                     <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                     <nil key="highlightedColor"/>
@@ -513,7 +514,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="294" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="clJ-ZF-RhR" id="8Qj-3P-CIO">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Campus Map" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hmX-Ho-OYi">
@@ -533,7 +534,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="352" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="S5Y-js-OKW" id="cdX-Gp-ggL">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Website" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tuk-Bh-OEy">
@@ -550,7 +551,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="410" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="fGv-Zt-HfY" id="qu6-ic-OMA">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Visit us on Facebook!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Yq1-eo-vfH">
@@ -567,7 +568,7 @@ Tacoma, WA 98447</string>
                                         <rect key="frame" x="0.0" y="468" width="375" height="58"/>
                                         <autoresizingMask key="autoresizingMask"/>
                                         <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="pfx-2s-wWd" id="CKz-bE-n08">
-                                            <rect key="frame" x="0.0" y="0.0" width="342" height="57.5"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="341" height="57.5"/>
                                             <autoresizingMask key="autoresizingMask"/>
                                             <subviews>
                                                 <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="About" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="TF5-84-ock">
@@ -610,7 +611,7 @@ Tacoma, WA 98447</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campusmap" translatesAutoresizingMaskIntoConstraints="NO" id="WVD-Df-rRQ">
-                                <rect key="frame" x="0.0" y="-909" width="375" height="2436"/>
+                                <rect key="frame" x="0.0" y="-328.5" width="375" height="1275"/>
                                 <gestureRecognizers/>
                             </imageView>
                         </subviews>
@@ -634,7 +635,7 @@ Tacoma, WA 98447</string>
             </objects>
             <point key="canvasLocation" x="2381.5999999999999" y="-1719.4902548725638"/>
         </scene>
-        <!--Conquering All Fears-->
+        <!--Uncomfortable Christianity-->
         <scene sceneID="bdL-AL-W2J">
             <objects>
                 <viewController id="TCe-7l-URI" customClass="AboutViewController" customModule="Faithbuilders" customModuleProvider="target" sceneMemberID="viewController">
@@ -643,25 +644,25 @@ Tacoma, WA 98447</string>
                         <viewControllerLayoutGuide type="bottom" id="rw4-V3-Fmo"/>
                     </layoutGuides>
                     <view key="view" contentMode="scaleToFill" id="ST7-52-LdN">
-                        <rect key="frame" x="0.0" y="64" width="375" height="554"/>
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VfV-aW-wLW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <string key="text">FaithBuilders™ is a Northwest spiritual growth workshop for the purpose of building up the Body of Christ to be full grown in service to Christ. Our goal is to reach, not only the Northwest Churches of Christ, but all corners of the brotherhood.
+                                <mutableString key="text">FaithBuilders™ is a Northwest spiritual growth workshop for the purpose of building up the Body of Christ to be full grown in service to Christ. Our goal is to reach, not only the Northwest Churches of Christ, but all corners of the brotherhood.
 
 Our theme is found in Ephesians 4:14-16 – “Then we will no longer be infants, tossed back and forth by the waves, and blown here and there by every wind of teaching and by the cunning and craftiness of men in their deceitful scheming. Instead, speaking the truth in love, we will in all things grow up into him who is the Head that is Christ. From him the whole body, joined and held together by every supporting ligament, grows and builds itself up in love, as each part does its work.”
 
 We seek to help churches and individual members to seek to return back to the Scriptures and align ourselves with the divine pattern of New Testament Christianity.
 
-The next FaithBuilders™ workshop is scheduled on July 6-8, 2017 and is held at the Pacific Lutheran University. It will take place in the beautifully remodeled Eastvold Auditorium on campus.
+The next FaithBuilders™ workshop is scheduled on July 12-14, 2018 and is held at the Pacific Lutheran University. It will take place in the beautiful Lagerquist Hall, located in the Mary Baker Russell Music Center.
 
 This university has gracefully and enthusiastically allowed us to use their facilities understanding that we have different doctrinal positions from the Lutherans, but have accepted us as paying customers of their facilities.
 
 This workshop is being overseen by 3 elderships and their congregations: The Olympia church of Christ in Olympia, Washington, Springbrook church of Christ in Renton, Washington and the Puyallup church of Christ in Puyallup, Washington. Ken Wilson is the director. Our purpose is to make this workshop a yearly event for as long as the Lord allows.
 
-We are expecting an attendance of at least 500 or more and hope to build on that for the next few years.</string>
+We are expecting an attendance of at least 500 or more and hope to build on that for the next few years.</mutableString>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -675,7 +676,7 @@ We are expecting an attendance of at least 500 or more and hope to build on that
                         </constraints>
                     </view>
                     <extendedEdge key="edgesForExtendedLayout"/>
-                    <navigationItem key="navigationItem" title="Conquering All Fears" id="rBl-kQ-x5N"/>
+                    <navigationItem key="navigationItem" title="Uncomfortable Christianity" id="rBl-kQ-x5N"/>
                     <connections>
                         <outlet property="aboutTextView" destination="VfV-aW-wLW" id="6UH-J8-aZb"/>
                     </connections>
@@ -691,7 +692,7 @@ We are expecting an attendance of at least 500 or more and hope to build on that
                     <tabBarItem key="tabBarItem" title="Speakers" image="speakers" id="fWM-BH-mhj"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="ENB-PG-zlR">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -710,7 +711,7 @@ We are expecting an attendance of at least 500 or more and hope to build on that
                     <tabBarItem key="tabBarItem" title="Schedule" image="clock" id="acW-dT-cKf"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="8Ec-os-fro">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -729,7 +730,7 @@ We are expecting an attendance of at least 500 or more and hope to build on that
                     <tabBarItem key="tabBarItem" title="Home" image="home" id="hCA-i4-bel"/>
                     <toolbarItems/>
                     <navigationBar key="navigationBar" contentMode="scaleToFill" id="m33-31-wID">
-                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
@@ -743,11 +744,11 @@ We are expecting an attendance of at least 500 or more and hope to build on that
         </scene>
     </scenes>
     <resources>
-        <image name="campusmap" width="3556" height="2436"/>
+        <image name="campusmap" width="1650" height="1275"/>
         <image name="clock" width="24" height="24"/>
         <image name="home" width="25" height="25"/>
-        <image name="kenwilson" width="107" height="107"/>
         <image name="logo" width="307" height="165"/>
+        <image name="profile" width="90" height="90"/>
         <image name="speakers" width="24" height="24"/>
     </resources>
 </document>
