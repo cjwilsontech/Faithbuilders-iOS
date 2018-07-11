@@ -100,7 +100,7 @@ class GlobalData
             Class(title: "PTSD Pt. 3", speaker: speakers[8], location: "Music Center", timeStart: "2:45 PM", timeEnd: "3:45 PM", day: 2),
             Class(title: "Beyond Our Words", speaker: speakers[5], location: "Music 306A", timeStart: "2:45 PM", timeEnd: "3:45 PM", day: 2),
             Class(title: "Equipping Families to Manage Life's Storms Pt. 3", speaker: speakers[9], location: "Ingram 100", timeStart: "2:45 PM", timeEnd: "3:45 PM", day: 2),
-            Class(title: "As a Light to the Muslims", speaker: speakers[10], location: "Music Center", timeStart: "5:00 PM", timeEnd: "6:00 PM", day: 2),
+            Class(title: "As a Light to the Muslims", speaker: speakers[11], location: "Music Center", timeStart: "5:00 PM", timeEnd: "6:00 PM", day: 2),
             
         ]
     }
