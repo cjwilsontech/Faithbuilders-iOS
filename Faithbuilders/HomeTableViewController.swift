@@ -15,8 +15,8 @@ class HomeTableViewController: UITableViewController {
         // Navigation Cell
         if (indexPath.row == 1) {
             
-            // Start navigation to PLU.
-            let coordinates = CLLocationCoordinate2DMake(47.14549, -122.439677)
+            // Start navigation to location.
+            let coordinates = CLLocationCoordinate2DMake(47.156822, -122.459084)
             let regionDistance:CLLocationDistance = 10000
             let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
             let options = [
@@ -25,7 +25,7 @@ class HomeTableViewController: UITableViewController {
             ]
             let placemark = MKPlacemark(coordinate: coordinates, addressDictionary: nil)
             let mapItem = MKMapItem(placemark: placemark)
-            mapItem.name = "Pacific Lutheran University"
+            mapItem.name = "Lakeview Church of Christ"
             mapItem.openInMaps(launchOptions: options)
             
         }
@@ -37,7 +37,7 @@ class HomeTableViewController: UITableViewController {
         
         // Facebook Cell
         if (indexPath.row == 4) {
-            UIApplication.shared.openURL(URL(string: "https://www.facebook.com/FaithBuilders2018")!)
+            UIApplication.shared.openURL(URL(string: "https://www.facebook.com/FaithBuildersNW/")!)
         }
     }
 }
