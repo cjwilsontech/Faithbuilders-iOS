@@ -606,18 +606,17 @@ Tacoma, WA 98444</string>
                         <viewControllerLayoutGuide type="top" id="1l7-9E-21u"/>
                         <viewControllerLayoutGuide type="bottom" id="WbP-PT-KQI"/>
                     </layoutGuides>
-                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" indicatorStyle="white" id="MRI-16-Y1u">
+                    <scrollView key="view" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" ambiguous="YES" indicatorStyle="white" id="MRI-16-Y1u">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campusmap" translatesAutoresizingMaskIntoConstraints="NO" id="WVD-Df-rRQ">
-                                <rect key="frame" x="0.0" y="301" width="375" height="16"/>
+                                <rect key="frame" x="0.0" y="-541" width="375" height="1700.0000000000005"/>
                                 <gestureRecognizers/>
                             </imageView>
                         </subviews>
                         <constraints>
                             <constraint firstAttribute="leadingMargin" secondItem="WVD-Df-rRQ" secondAttribute="leading" constant="16" id="B9b-tE-dr8"/>
-                            <constraint firstItem="WVD-Df-rRQ" firstAttribute="bottom" secondItem="WbP-PT-KQI" secondAttribute="top" id="E4O-Gy-k0m"/>
                             <constraint firstAttribute="trailingMargin" secondItem="WVD-Df-rRQ" secondAttribute="trailing" constant="-16" id="OQj-jr-4Cy"/>
                             <constraint firstItem="WVD-Df-rRQ" firstAttribute="centerX" secondItem="MRI-16-Y1u" secondAttribute="centerX" id="lI4-8J-KQ9"/>
                             <constraint firstItem="WVD-Df-rRQ" firstAttribute="centerY" secondItem="MRI-16-Y1u" secondAttribute="centerY" id="vdh-eU-bBV"/>
@@ -650,7 +649,7 @@ Tacoma, WA 98444</string>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" showsHorizontalScrollIndicator="NO" editable="NO" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="VfV-aW-wLW">
                                 <rect key="frame" x="0.0" y="0.0" width="375" height="554"/>
                                 <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <mutableString key="text">Dear Brothers and Sisters:
+                                <string key="text">Dear Brothers and Sisters:
 
 We have decided to move the FaithBuilders Workshop from the PLU campus to the Lakeview Church of Christ temporarily in July 11-13, 2019. This will be the 6th year of the workshop. This move would save a considerable amount of money. The move was prompted by a discouraging response from the college about issues encountered in the workshop this year.
 
@@ -660,7 +659,7 @@ We solicit your prayers and involvement in financially supporting the workshop f
 
 God bless,
 
-Ken Wilson, Director</mutableString>
+Ken Wilson, Director</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
