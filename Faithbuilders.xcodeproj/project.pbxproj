@@ -133,7 +133,7 @@
 					23CFCB531D0E0F79004E3AC4 = {
 						CreatedOnToolsVersion = 7.2;
 						DevelopmentTeam = B6F5N6YP45;
-						LastSwiftMigration = 0940;
+						LastSwiftMigration = 1020;
 					};
 				};
 			};
@@ -142,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -320,8 +321,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eusebeia.faithbuilders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -337,8 +337,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.eusebeia.faithbuilders;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PROVISIONING_PROFILE = "";
-				SWIFT_SWIFT3_OBJC_INFERENCE = Off;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};

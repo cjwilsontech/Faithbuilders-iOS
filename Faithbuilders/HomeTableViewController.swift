@@ -18,7 +18,7 @@ class HomeTableViewController: UITableViewController {
             // Start navigation to location.
             let coordinates = CLLocationCoordinate2DMake(47.156822, -122.459084)
             let regionDistance:CLLocationDistance = 10000
-            let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates, regionDistance, regionDistance)
+            let regionSpan = MKCoordinateRegion.init(center: coordinates, latitudinalMeters: regionDistance, longitudinalMeters: regionDistance)
             let options = [
                 MKLaunchOptionsMapCenterKey: NSValue(mkCoordinate: regionSpan.center),
                 MKLaunchOptionsMapSpanKey: NSValue(mkCoordinateSpan: regionSpan.span)
