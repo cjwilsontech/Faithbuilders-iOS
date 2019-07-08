@@ -602,7 +602,7 @@ Tacoma, WA 98444</string>
                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
                             <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="campusmap" translatesAutoresizingMaskIntoConstraints="NO" id="WVD-Df-rRQ">
-                                <rect key="frame" x="0.0" y="-541" width="375" height="1700.0000000000005"/>
+                                <rect key="frame" x="0.0" y="301" width="375" height="16"/>
                                 <gestureRecognizers/>
                             </imageView>
                         </subviews>
