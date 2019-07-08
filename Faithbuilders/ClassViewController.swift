@@ -7,10 +7,9 @@
 //
 
 import UIKit
-import MapKit
 import CoreLocation
 
-class ClassViewController: UIViewController, MKMapViewDelegate, CLLocationManagerDelegate {
+class ClassViewController: UIViewController {
     
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var dateLabel: UILabel!
@@ -18,9 +17,6 @@ class ClassViewController: UIViewController, MKMapViewDelegate, CLLocationManage
     @IBOutlet weak var photoImageView: UIImageView!
     @IBOutlet weak var speakerLabel: UILabel!
     @IBOutlet weak var locationLabel: UILabel!
-    @IBOutlet weak var mapView: MKMapView!
-    
-    let locationManager = CLLocationManager()
     
     var myClass:Class?
     
@@ -53,40 +49,6 @@ class ClassViewController: UIViewController, MKMapViewDelegate, CLLocationManage
             } else {
                 dateLabel.text = "Saturday, July 13"
             }
-        }
-        
-        locationManager.desiredAccuracy = kCLLocationAccuracyBest
-        locationManager.distanceFilter = 10
-        locationManager.delegate = self
-        
-        if (locationManager.responds(to: #selector(locationManager.requestWhenInUseAuthorization))) {
-            locationManager.requestWhenInUseAuthorization()
-        }
-        locationManager.startUpdatingLocation()
-        
-        var coordinates: CLLocationCoordinate2D?
-        if (myClass!.location == "Auditorium") {
-            coordinates = CLLocationCoordinate2DMake(47.14609, -122.441857)
-        } else if (myClass!.location == "Xavier") {
-            coordinates = CLLocationCoordinate2DMake(47.146528, -122.441342)
-        } else if (myClass!.location == "Admin 101") {
-            coordinates = CLLocationCoordinate2DMake(47.147106, -122.441691)
-        } else if (myClass!.location == "Music Center" || myClass!.location == "Music 306A") {
-            coordinates = CLLocationCoordinate2DMake(47.146566, -122.445116);
-        } else if (myClass!.location == "Ingram 100") {
-            coordinates = CLLocationCoordinate2DMake(47.147284, -122.444360);
-        } else if (myClass!.location == "University Center") {
-            coordinates = CLLocationCoordinate2DMake(47.145293, -122.440437)
-        }
-        
-        if (coordinates != nil) {
-            let regionDistance:CLLocationDistance = 700
-            let regionSpan = MKCoordinateRegionMakeWithDistance(coordinates!, regionDistance, regionDistance)
-            let placemark = MKPlacemark(coordinate: coordinates!, addressDictionary: nil)
-            let mapItem = MKMapItem(placemark: placemark)
-            mapItem.name = myClass!.location
-            mapView.addAnnotation(placemark)
-            mapView.setRegion(regionSpan, animated: true)
         }
     }
 }

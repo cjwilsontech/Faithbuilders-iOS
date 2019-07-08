@@ -203,30 +203,22 @@
                                 <color key="textColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <mapView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" preservesSuperviewLayoutMargins="YES" mapType="hybrid" showsUserLocation="YES" translatesAutoresizingMaskIntoConstraints="NO" id="2fw-Kh-MmD">
-                                <rect key="frame" x="16" y="151" width="343" height="275"/>
-                            </mapView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="avY-kg-9Hd" secondAttribute="trailing" id="0ho-wD-JaL"/>
                             <constraint firstItem="GCg-Sq-7kc" firstAttribute="leading" secondItem="18K-8N-YwQ" secondAttribute="trailing" constant="8" id="2Fg-zq-Ont"/>
-                            <constraint firstItem="2fw-Kh-MmD" firstAttribute="top" secondItem="18K-8N-YwQ" secondAttribute="bottom" constant="21" id="4pK-JR-1cK"/>
                             <constraint firstItem="uyA-fz-6Wd" firstAttribute="leading" secondItem="18K-8N-YwQ" secondAttribute="trailing" constant="8" id="BY0-m8-NTk"/>
                             <constraint firstItem="avY-kg-9Hd" firstAttribute="top" secondItem="35e-Uw-sID" secondAttribute="bottom" id="C94-Af-PZQ"/>
                             <constraint firstAttribute="trailingMargin" secondItem="GCg-Sq-7kc" secondAttribute="trailing" id="Gcd-sp-fbE"/>
                             <constraint firstItem="do3-sy-cjn" firstAttribute="top" secondItem="1MR-Aq-y2l" secondAttribute="bottom" constant="8" id="KfD-rI-RGr"/>
                             <constraint firstItem="uyA-fz-6Wd" firstAttribute="top" secondItem="do3-sy-cjn" secondAttribute="bottom" constant="8" id="Wpf-Ii-ZRa"/>
-                            <constraint firstAttribute="bottom" secondItem="2fw-Kh-MmD" secondAttribute="bottom" constant="20" symbolic="YES" id="ZE8-xn-t7E"/>
                             <constraint firstItem="35e-Uw-sID" firstAttribute="leading" secondItem="18K-8N-YwQ" secondAttribute="trailing" constant="8" id="adz-Nj-C6V"/>
                             <constraint firstItem="GCg-Sq-7kc" firstAttribute="top" secondItem="avY-kg-9Hd" secondAttribute="bottom" constant="8" id="bQo-Uq-DCL"/>
                             <constraint firstAttribute="leadingMargin" secondItem="do3-sy-cjn" secondAttribute="leading" id="bxy-3d-yaZ"/>
                             <constraint firstItem="18K-8N-YwQ" firstAttribute="top" secondItem="do3-sy-cjn" secondAttribute="bottom" constant="8" id="fYk-SF-pnU"/>
                             <constraint firstAttribute="trailingMargin" secondItem="do3-sy-cjn" secondAttribute="trailing" id="ip8-KQ-j3Z"/>
-                            <constraint firstItem="2fw-Kh-MmD" firstAttribute="top" secondItem="GCg-Sq-7kc" secondAttribute="bottom" constant="8" id="mCG-xF-sbj"/>
                             <constraint firstItem="35e-Uw-sID" firstAttribute="top" secondItem="uyA-fz-6Wd" secondAttribute="bottom" constant="8" id="pfr-6Z-gGB"/>
-                            <constraint firstAttribute="leadingMargin" secondItem="2fw-Kh-MmD" secondAttribute="leading" id="rcL-lq-5GL"/>
-                            <constraint firstAttribute="trailingMargin" secondItem="2fw-Kh-MmD" secondAttribute="trailing" id="wrW-tJ-8Sj"/>
                             <constraint firstItem="avY-kg-9Hd" firstAttribute="leading" secondItem="18K-8N-YwQ" secondAttribute="trailing" constant="8" id="xGM-7m-pLN"/>
                             <constraint firstAttribute="trailingMargin" secondItem="35e-Uw-sID" secondAttribute="trailing" id="xPY-oZ-Nob"/>
                             <constraint firstAttribute="leadingMargin" secondItem="18K-8N-YwQ" secondAttribute="leading" id="z8A-4x-VMU"/>
@@ -238,7 +230,6 @@
                     <connections>
                         <outlet property="dateLabel" destination="35e-Uw-sID" id="m1R-48-e9R"/>
                         <outlet property="locationLabel" destination="GCg-Sq-7kc" id="mhV-Mo-qFM"/>
-                        <outlet property="mapView" destination="2fw-Kh-MmD" id="k5H-sf-ArH"/>
                         <outlet property="photoImageView" destination="18K-8N-YwQ" id="Dyk-et-NAL"/>
                         <outlet property="speakerLabel" destination="uyA-fz-6Wd" id="nq2-eF-qbS"/>
                         <outlet property="timeLabel" destination="avY-kg-9Hd" id="dht-av-4Io"/>
